@@ -1,2 +1,3 @@
 # School
-Bunch of exercises I solved at school if anybody finds these useful as they're very easy.
+Bunch of exercises I solved at school.
+They're overall very simple, but if anybody finds them useful for anything, feel free to use them.
