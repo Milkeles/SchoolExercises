@@ -1,0 +1,8 @@
+A football team has a changeable number of players, name and rating. A player has a name and stats that are the basis of his skill level. A player has stamina, Sprint, Dribbling, Passing and Shooting stats. Each stat can be in the range [0..100]. A player's overall skill level is calculated as the average of their stats. The very name of the player and his statistics should be visible to everyone from the outside world. All other data must be discovered. The team must display a name, a rating (calculated from the average skill levels of all players in the team), and methods for adding and removing players. Your task is to model the team and the players, through the correct use of encapsulation principles. Show only the properties that should be visible and validate the data appropriately.
+
+Data Validation:
+- The name must not be empty, null, or contain only spaces. Otherwise, output "A name should not be empty."
+- Stats should be in the range 0..100. Otherwise output "[Stat Name] must be between 0 and 100."
+- If the program receives a command to remove a missing player, it must output "Player [player name] is not in [team name] team."
+- If the program receives a command to add a player to a missing team, it must output "Team [team name] does not exist."
+- If the program gets a command to show stats for a missing team, it should output "Team [team name] does not exist."
