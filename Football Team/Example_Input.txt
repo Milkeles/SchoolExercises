@@ -1,0 +1,12 @@
+Input:
+Team;Arsenal
+Add;Arsenal;Gabriel Jesus;75;85;84;95;67
+Add;Barcelona;Gavi;86;79;34;76;54
+Rating;Arsenal
+Add;Arsenal;Test;110;50;50;50;50
+END
+
+Output:
+Team Barcelona does not exist.
+Arsenal - 81.2
+Endurance must be between 0 and 100.
